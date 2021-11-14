@@ -1769,10 +1769,10 @@ end)
 TextButton_14.MouseButton1Click:Connect(function() -- hub stuff
 	osh()
 end)
-TextButton_11.MouseButton1Click:Connect(function()
+TextButton_11.MouseButton1Click:Connect(function() -- close
 	test:Destroy()
 end)
-TextButton_2.MouseButton1Click:Connect(function()
+TextButton_2.MouseButton1Click:Connect(function() -- close
 	test:Destroy()
 end)
 
