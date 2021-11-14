@@ -1769,6 +1769,12 @@ end)
 TextButton_14.MouseButton1Click:Connect(function() -- hub stuff
 	osh()
 end)
+TextButton_11.MouseButton1Click:Connect(function()
+	test:Destroy()
+end)
+TextButton_2.MouseButton1Click:Connect(function()
+	test:Destroy()
+end)
 
 TextButton_10.MouseButton1Click:Connect() -- minimize
 TextButton_3.MouseButton1Click:Connect() -- minimize
